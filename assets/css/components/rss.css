@@ -1,0 +1,119 @@
+.rss{
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background-color: var(--white-color);
+    padding: 4rem 2rem 2rem 2rem;
+    border-left: 4px solid var(--black-color);
+    border-top: 4px solid var(--black-color);
+    transition: .4s;
+    z-index: 100;
+    /* overflow-y:scroll; */
+}
+
+.view-rss{
+    right: 0;
+}
+
+.rss__button{
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 3.5rem;
+    left: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    transition: left .4s, width .4s;
+    z-index: -1;
+}
+
+.view-rss .rss__button{
+    left: 0;
+}
+
+.view-rss .rss__button:hover{
+    left: 0;
+}
+.rss__button:hover{
+    left: -8rem;
+}
+
+.rss__button i{
+    font-size: 1.5rem;
+}
+
+.rss__button p{
+    margin-left: .5rem;
+}
+
+.rss__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    padding-bottom: 4rem;
+    margin-top: -3.25rem;
+    margin-bottom: 3rem;
+}
+
+.rss__img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rss_list{
+    display: flex !important;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: calc(100% - 6rem);
+    overflow-y:scroll;
+}
+
+.rss__item{
+    padding: 1rem;
+    transition: background-color .4s;
+}
+
+.rss__item:hover{
+    background-color: var(--container-color);
+}
+
+.rss__item-title{
+    margin-bottom: .5rem;
+    transition: padding-left .4s, border-left .2s;
+}
+
+.rss__item-title:hover{
+    border-left: 4px solid var(--black-color);
+    padding-left: .5rem;
+}
+
+.rss__link{
+    color: var(--title-color);
+}
+
+.rss__item-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.rss__description{
+    color: var(--text-color);
+    display: flex;
+    column-gap: .5rem;
+    text-align: justify;
+}
+
+.rss__item:hover .rss__description img{
+    outline: 4px solid var(--white-color);
+}

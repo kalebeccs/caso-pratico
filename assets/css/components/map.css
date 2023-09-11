@@ -1,0 +1,27 @@
+.map{
+    background-color: var(--container-color);
+    transition: background-color .4s;
+}
+
+.map__container{
+    display: grid;
+    padding: 0 .5rem;
+}
+
+.map__description{
+    padding-bottom: 1rem;
+}
+
+.map__link{
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--title-color);
+    background: linear-gradient(90deg, #0933644d, #09336400);
+}
+
+.map__iframe{
+    width: 100%;
+    height: 600px;
+    max-height: calc(100vh - var(--header-height));
+    border: 0;
+}

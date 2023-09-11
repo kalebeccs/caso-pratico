@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="./assets/lightbox/dist/css/lightbox.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Home | KalebeCCS</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-circle">KS</span>
+                <span class="nav__logo-name">KalebeCCS</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <span class="nav__title">Menu</span>
+
+                <h3 class="nav__name">KalebeCCS</h3>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#budget" class="nav__link">Budget</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    KalebeCCS
+                </h1>
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="./assets/img/home.webp" alt="image" class="home__img">
+                        <div class="home__shadow"></div>
+                        <img src="./assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="./assets/img/random-lines.svg" alt="" class="home__line">
+                        <div class="geometric-box"></div>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/kalebeccs/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kalebeccs/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/kalebeccs" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>Desenvolvedor Frontend</b>, com conhecimento em desenvolvimento e design web, ofereco os melhores projetos e um trabalho de qualidade.
+                    </p>
+
+                    <a href="#about" class="home__scroll">
+                        <div class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <span class="home__scroll-text">Scroll Down</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">About Me.</h2>
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="./assets/img/about.jpg" alt="image" class="about__img">
+                        <div class="about__shadow"></div>
+                        <div class="geometric-box"></div>
+                        <img src="./assets/img/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+                <div class="about__info">
+                    <p class="about__description">
+                        Apaixonado por criar <b>Paginas Web</b> com uma boa <b>Experiencia para o Utilizador</b>, eu ainda estou estudando e praticando para adquirir mais experiencia enquanto crio alguns projetos pessoais.
+                    </p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <b>Minhas habilidades sao:</b> HTML, CSS, Javascript, Github, Bootstrap e Figma.
+                        </li>
+                    </ul>
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"></i> Contact Me
+                        </a>
+                        <a href="https://www.linkedin.com/in/kalebeccs/" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="budget section" id="budget">
+            <h2 class="section__title-2">
+                <span>Budget.</span>
+            </h2>
+            <div class="budget__container container grid">
+                <div class="budget__data">
+                    <p class="budget__description-1">
+                        Esta interessado mas nao sabe quanto pode custar meus servicos?
+                    </p>
+                    <p class="budget__description-2">
+                        Pode utilizar os campos abaixo para ter uma estimativa.
+                    </p>
+                    <p class="budget__description-3">
+                        E conferir alguns projetos que ja desenvolvi <a class="budget__link" href="#projects">clicando aqui.</a>
+                    </p>
+                </div>
+                <form action="" class="budget__form" id="budget-form">
+                    <fieldset class="budget__group">
+                        <legend class="budget__legend">
+                            <i class="ri-code-box-line"></i>Tipo de pagina web
+                        </legend>
+                        <div class="budget__box">
+                            <input id="homepage" class="budget__radio" type="radio" name="page-type" checked>
+                            <label class="budget__label-radio" for="homepage">Homepage</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="spa" class="budget__radio" type="radio" name="page-type">
+                            <label class="budget__label-radio" for="spa">Single Page Application</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="dashboard" class="budget__radio" type="radio" name="page-type">
+                            <label class="budget__label-radio" for="dashboard">Dashboard</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="ecommerce" class="budget__radio" type="radio" name="page-type">
+                            <label class="budget__label-radio" for="ecommerce">eCommerce</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="budget__group">
+                        <legend class="budget__legend">
+                            <i class="ri-calendar-line"></i>Prazo em meses
+                        </legend>
+                        <div class="budget__box">
+                            <input class="budget__range" id="prazo" type="range" min="1" max="5" value="1">
+                            <i class="ri-arrow-right-s-line budget__range-icon"></i>
+                            <output class="budget__range-output" id="out-prazo"></output>
+                        </div>
+                    </fieldset>
+                    <fieldset class="budget__group">
+                        <legend class="budget__legend">
+                            <i class="ri-layout-5-line"></i>Marque os separadores desejados
+                        </legend>
+                        <div class="budget__box">
+                            <input id="sobre" type="checkbox" class="budget__checkbox">
+                            <label class="budget__label-checkbox" for="sobre">Sobre Mim / Quem Somos</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="gallery" type="checkbox" class="budget__checkbox">
+                            <label class="budget__label-checkbox" for="gallery">Galeria de imagens</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="news" type="checkbox" class="budget__checkbox">
+                            <label class="budget__label-checkbox" for="news">Noticias</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="services" type="checkbox" class="budget__checkbox">
+                            <label class="budget__label-checkbox" for="services">Servicos</label>
+                        </div>
+                        <div class="budget__box">
+                            <input id="where" type="checkbox" class="budget__checkbox">
+                            <label class="budget__label-checkbox" for="where">Onde Estamos</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="budget__group">
+                        <legend class="budget__legend">
+                            <i class="ri-money-euro-box-line"></i>Valor estimado
+                        </legend>
+                        <p class="budget__warning">
+                            (é um valor meramente indicativo, pode sofrer alteracoes)
+                        </p>
+                        <div class="budget__total">
+                            € <span class="budget__total-valor" id="budge-total"></span>
+                        </div>
+                    </fieldset>
+                </form> 
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Projects.</span>
+            </h2>
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="./assets/img/projects/adopet.png" alt="image" class="projects__img">
+                        <a href="./assets/img/projects/lib/adopet_desk.jpeg" class="projects__button button" data-lightbox="projects-set" data-title="Adopet, um site para adocao de pets.">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Application</h3>
+                        <h2 class="projects__title">Adopet</h2>
+                        <p class="projects__description">
+                            Uma aplicacap para adocao de pets, onde apos um pequeno cadastro pode tanto adicionar novos pets para adocao como tambem buscar algum para adotar.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/kalebeccs/challenge/tree/main/adopet" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+                        <a href="https://kalebeccs-challenge.vercel.app/adopet/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> View
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="./assets/img/projects/alurabooks.png" alt="image" class="projects__img">
+                        <a href="./assets/img/projects/lib/alurabooks_desk.jpeg" class="projects__button button" data-lightbox="projects-set" data-title="Alurabooks, um site para compra de livros.">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">eCommerce</h3>
+                        <h2 class="projects__title">Alurabooks</h2>
+                        <p class="projects__description">
+                            Uma loja online para compra de livros de programacao, onde pode buscar por topicos ou um nome especifico, alem de se cadastrar para ficar informado...
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/kalebeccs/learning/tree/main/html-css-mobile-first/alurabooks" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+                        <a href="https://kalebeccs-learning.vercel.app/html-css-mobile-first/alurabooks/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> View
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="./assets/img/projects/dashmed.png" alt="image" class="projects__img">
+                        <a href="./assets/img/projects/lib/aluramed_desk.jpeg" class="projects__button button" data-lightbox="projects-set" data-title="Dashmed, um dashboard de um consultorio medico.">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Dashboard</h3>
+                        <h2 class="projects__title">Dashmed</h2>
+                        <p class="projects__description">
+                            Dashboard de uma clinica medica, onde cada medico pode visualizar sua agenda, cadastrar novas consultas, verificar informacoes dos pacientes e tambem...
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/kalebeccs/7DaysOfCode/tree/main/responsividade" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+                        <a href="https://kalebeccs-7-days-of-code.vercel.app/responsividade/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> View
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="./assets/img/projects/optimustech.png" alt="image" class="projects__img">
+                        <a href="./assets/img/projects/lib/optimustech_desk.jpeg" class="projects__button button" data-lightbox="projects-set" data-title="Optimustech, uma homepage para uma empresa.">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Optimustech</h2>
+                        <p class="projects__description">
+                            Pagina inicial de uma empresa focado em terceirizacao de servicos voltados a area de design e programacao web. Em sua pagina principal é possivel ver...
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/kalebeccs/7DaysOfCode/tree/main/html-css" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+                        <a href="https://kalebeccs-7-days-of-code.vercel.app/html-css/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> View
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="./assets/img/projects/robotron.png" alt="image" class="projects__img">
+                        <a href="./assets/img/projects/lib/robotron_desk.jpeg" class="projects__button button" data-lightbox="projects-set" data-title="Robotron, uma tela de configuracao de um jogo.">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Game Web</h3>
+                        <h2 class="projects__title">Robotron</h2>
+                        <p class="projects__description">
+                            Tela inicial apresentando um jogo simples onde é possivel configurar algumas opcoes para construir um robo, tente criar o forte de todos!!!
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/kalebeccs/learning/tree/main/javascript-manipulando-o-dom" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+                        <a href="https://kalebeccs-learning.vercel.app/javascript-manipulando-o-dom/robotron-2000/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> View
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contact Me.</span>
+                    </h2>
+                    <p class="contact__description-1">
+                        Tento ler todos os emails. Envie-me uma mensagem e eu entrarei em contato com voce.
+                    </p>
+                    <p class="contact__description-2">
+                        Preciso do seu <b>Nome</b> e <b>Email</b>, nao se preocupe nao recebera nada alem de sua resposta.
+                    </p>
+                    <div class="geometric-box"></div>
+                </div>
+                <div class="contact__mail">
+                    <h2 class="contact__title">Envie-me uma mensagem</h2>
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Primeiro Nome">
+                                <label for="name" class="contact__label">Primeiro Nome</label>
+                            </div>
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Endereco de Email">
+                                <label for="email" class="contact__label">Endereco de Email</label>
+                            </div>
+                        </div>
+                        <div class="contact__box">
+                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Assunto">
+                            <label for="subject" class="contact__label">Assunto</label>
+                        </div>
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Mensagem"></textarea>
+                            <label for="message" class="contact__label">Mensagem</label>
+                        </div>
+                        <p class="contact__message" id="contact-message"></p>
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-send-plane-line"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+                <div class="contact__social">
+                    <img src="./assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Se nao quiser enviar um email
+                            </p>
+                            <p class="contact__social-description-2">
+                                Me escreva atraves das minhas redes sociais
+                            </p>
+                        </div>
+                        <div class="contact__social-links">
+                            <a href="https://www.facebook.com/kalebeccs/" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kalebeccs/" target="_blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kalebeccs/" target="_blank" class="contact__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map section">
+            <h2 class="section__title-1">
+                <span>Location.</span>
+            </h2>
+            <div class="map__container">
+                <div class="map__data">
+                    <p class="map__description">
+                        Caso queira fazer uma visita, pode ter as direcoes rapidamente <span class="map__link" id="map-link">clicando aqui.</span>
+                    </p>
+                </div>
+                <div class="map__embed">
+                    <iframe class="map__iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.3138250972033!2d-9.143714923500026!3d38.733560156353974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339f5c78b77b%3A0xca44b80af51c2996!2sMaster%20D%20Lisboa%20-%20Cursos%20e%20Forma%C3%A7%C3%A3o!5e0!3m2!1spt-PT!2spt!4v1694439307174!5m2!1spt-PT!2spt" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#budget" class="footer__link">Budget</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+            <span class="footer__copy">
+                &#169; All Rights Reserved By <a href="https://github.com/kalebeccs">KalebeCCS.</a>
+            </span>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <aside class="rss" id="rss">
+        <div class="rss__button" id="rss-button">
+            <i class="ri-newspaper-line"></i>
+            <p>Feed RSS</p>
+        </div>
+        <h2 class="rss__title">
+            <img class="rss__img" src="./assets/img/ign-logo.png" alt="ing logo">
+            IGN Portugal - tech
+        </h2>
+        <div class="rss_list" id="rss-content">
+        </div>
+    </aside>
+
+    <script src="./assets/lightbox/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/budget.js"></script>
+    <script src="./assets/js/feed-rss.js"></script>
+</body>
+</html>
