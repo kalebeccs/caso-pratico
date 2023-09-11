@@ -1,1 +1,1 @@
-# caso-pratico
+# Caso Pratico - JavaScript
